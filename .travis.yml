@@ -4,8 +4,8 @@ node_js:
 deploy:
   provider: npm
   email: 250001757@qq.com
-  api_key: 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
+  api_key:
+    secure: jgJ4sYuxzDU85Gow+gmq4UAPS5mFNJ4B2wevYgj/PP2fXmOygawXBo0EW0tzDGRv1R3ZcJxxHieTfvI3f9WhbfgfBaTxdYdn4pcpzHcoGYtvcpR37Zy0ZZNNBrAvppchowvsu5MLId85+vdSB1xkjZAS7mPX5/fyip54Vqsckgmsdn3f7xkSRSZnUQ4FsUInSlykskg05QnP5/A0R53zOh/vlgTogVk0kvlFxtPfzGPFKKJn4Pt9A9LoDcPwm8mxMj4ZhvZ9fCObB37PJoj6BOgbj6bO3PH7szDceSusxMoWQOoCWZ4ptfjbb6U4hOK0SXk7wC05yGT2eSNzn98ZH40kokhI+viCBbMbTWWFHwWG8e+CE75piQDCZVuBY7SeACKs0ETyKM9LiIakxc0+0VP1UDF76/E4ac2NGawnoU7Cjq4sclJfOmn6WlfIQ56V+wnClElDtcX/69uRHX8YpeF0SYPT6+3ZJ0iqDhJjURS22vpwes2jIitS/DSnH5whPpaaUf6m7BMRrXRvgy7xgUjZEdpz9q/mEZDAx/Kx0ijZMmrmEskIWmF09PP9VRkRKQ6wLO/Y+wawDj7V2dQ8GwGcIebkcl+VPHsvq2s4Sr4umMRQhKMsEjWa7GGenohsxudbDZF4/LoVLAT6N9DIUOwgj2neyvApE8l+L5jOIM8=
   skip_cleanup: true
   on:
     tags: true
-
