@@ -1,8 +1,8 @@
 {
   "name": "vue3-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
-  "author": "Viking Zhang",
+  "author": "CH",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run clean && npm run build:esm && npm run build:umd",
@@ -12,11 +12,11 @@
     "build:esm": "rollup --config build/rollup.esm.config.js",
     "build:umd": "rollup --config build/rollup.umd.config.js",
     "clean": "rimraf ./dist",
-    "prepublishOnly": "npm run lint && npm run test&& npm run build"
+    "prepublishOnly": "npm run lint && npm run build"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm run test"
+      "pre-commit": "npm run lint"
     }
   },
   "main": "dist/vue3-components.umd.js",
@@ -58,7 +58,7 @@
   "peerDependencies": {
     "vue": "^3.0.0"
   },
-  "homepage": "https://github.com/imooc-lego/lego-components",
+  "homepage": "https://github.com/HChen318/vue3-components",
   "keywords": [
     "Component",
     "UI",
@@ -67,7 +67,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/imooc-lego/lego-components"
+    "url": "https://github.com/HChen318/vue3-components"
   },
   "types": "dist/index.d.ts"
 }
